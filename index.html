@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>rubric1</title>
+</head>
+
+<body>
+<h1><center>My Website</center></h1>
+	
+	<script>
+	if (2 > 1 ){
+  alert("Welcome to my page!");}
+</script>
+	
+
+	<button onclick="rubricprom()">Click me!</button>
+	<p id="demo"></p>
+	<script>
+		function rubricprom() {
+  	let text;
+  	let person = prompt("Please enter your name:", "John Doe");
+  	if (person == null || person == "") {
+    text = "User cancelled the prompt.";
+  } else {
+    text = "Hello " + person + "! Nice to see you!";
+  }
+ document.getElementById("demo").innerHTML = text;
+}
+</script>
+	<p><i><b>Click the button above&#8598; to receive a prompt to a welcome message</b></i></p><br>
+<hr><hr><hr><hr><hr><hr><hr><hr>
+	
+	
+<br><br><p id="number"></p>	
+<script>
+var x = 10;
+x += 5;
+document.getElementById("number").innerHTML = x;
+</script>
+	&#8593;
+	<p> <i><b>Above is the answer for 10 + 5. The variable being 10 and the operator </b></i></p>
+	
+<br><br><br>
+
+<script>
+
+console.log("Secret message");
+
+</script>
+	
+
+<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
+	
+<p id="namemestrings"></p>	
+<script>
+let text = "My name is \"Charline\" and thank you for visiting my website.";
+document.getElementById("namemestrings").innerHTML = text; 
+</script>
+<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
+	
+	<br>
+<script>
+document.write("Hope I am doing this right!");
+</script>
+	
+	
+
+
+</body>
+</html>
